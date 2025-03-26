@@ -39,7 +39,7 @@ export interface IDataStore {
     fetchLocales: () => void;
     fetchCategories: () => void;
     fetchArticles: (params: fetchArticlesParams) => void;
-};
+}
 
 export type Category = {
     id: string;
