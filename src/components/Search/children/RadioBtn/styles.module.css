@@ -1,0 +1,22 @@
+.radioBtn {
+  display: flex;
+  align-items: center;
+  border: 0.0625rem solid #8dd8fb;
+  border-radius: 2.5rem;
+  padding: 0.25rem 1rem;
+  justify-content: center;
+  color: #8dd8fb;
+  cursor: pointer;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  line-height: 0.75rem;
+
+  input[type='radio'] {
+    display: none;
+  }
+}
+
+.active {
+  background-color: #8dd8fb;
+  color: #fff;
+}

@@ -1,0 +1,9 @@
+.layout {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  margin: 0 auto;
+  width: 1280px;
+  padding: 1rem;
+  min-height: 100vh;
+  max-width: 80%;
+}
